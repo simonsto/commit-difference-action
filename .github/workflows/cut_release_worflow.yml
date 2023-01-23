@@ -6,7 +6,7 @@ name: Cut Scheduled Release
 on:
   push:
     branches:
-      - 'development'
+      - 'staging'
 
 jobs:
   cut_latest_release_branch:
